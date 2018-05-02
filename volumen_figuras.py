@@ -1,8 +1,3 @@
-Integrantes
-Elvis Pérez
-Anthony Tacuri
-Alberto Heredia
-
 import math as m
 def funEsfera(rad):
     vol=(4/3)*m.pi*(rad**3)
@@ -36,3 +31,11 @@ while True :
         break;
     else:
         print('Opcion incorrecta ingrese nuevamente')
+
+
+
+
+
+
+
+
