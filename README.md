@@ -13,13 +13,15 @@ def calculo_volumen_prisma_triangular(area_base, altura):
 def calculo_volumen_cubo(lad):
     volu3=lad**3
     return volu3
-while True :
+def menu():
     print('\t\t\tMenu')
     print('Elija una figura para calcular el volumen:')
     print('1. Esfera')
     print('2. Piramide Triangular')
     print('3. Cubo')
     print('4. Salir')
+while True :
+    menu()
     o=int(input('Ingrese un numero: '))
     if o==1:
         a=float(input('Ingrese el radio(cm):'))
