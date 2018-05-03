@@ -1,0 +1,1 @@
+La conversion del numero binario a decimal es: 53
